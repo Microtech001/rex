@@ -38,13 +38,6 @@ By MICROTECH.STORE (MTS)
 *  Ubuntu 18.04 / 20.04
 * Tested For VPS AWS, AZURE, DigitalOcean, Centerhop
 
-# New Update & Fix Bug
-* Support custom path / worryfree VMESS VLESS (need change XrayCore by MTS on settings)
-* Can downgrade XrayCore Official v1.7.5 if latest xraycore problem.
-* New BBRPLUS 5.15.96 by UJ6XN
-* Fixed Auto Deleted Expired Account SSH & XRAYS
-* Fixed Add Domain & NameServer while installing script
-* New Interface
 ## Installation 
 ## 1.
 <img src="https://img.shields.io/badge/Update%20_&_%20Upgrade Debian 9,10,11-purple">
@@ -81,26 +74,8 @@ apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
 ```html
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/Microtech001/rex/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
-  
 
-### 4. DONE
-
-* • If you can't log in to the VPS, use the SSH port
-* • 22, 2253
-
-* Fix SSL ERROR
-* automatically to fix SSL/TLS Certificate errors and SUBDOMAIN
-* fix error in acme domain section
-* to update SSL/TLS certificates
-```html
-slhost && certv2ray
-```
-* lalu restart
-```html
-restart
-```
-
-### 7. Info Websocket
+### 3. Info Websocket
 * Websocket must use a subdomain/domain and already pointed at cloudflare (CDN CLOUDFLARE)
 * Without a subdomain/domain it's impossible to connect with bugs originating from cloudflare
 
