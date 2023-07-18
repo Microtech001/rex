@@ -184,7 +184,7 @@ echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 /etc/init.d/dropbear restart
 
-# install squid (proxy nya aku matikan)
+# install squid
 cd
 #apt -y install squid3
 #wget -O /etc/squid/squid.conf "https://${akbarvpn}/squid3.conf"
