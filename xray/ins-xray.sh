@@ -344,7 +344,7 @@ END
 # / / Installation Xray Service
 cat > /etc/systemd/system/xray.service << END
 [Unit]
-Description=Xray Service Mod By NevermoreSSH
+Description=Xray Service By MTS
 Documentation=https://nekopoi.care
 After=network.target nss-lookup.target
 
