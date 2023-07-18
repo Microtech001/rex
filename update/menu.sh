@@ -190,11 +190,11 @@ echo -e "${GREEN}**/(//*/........ .. ....                 *                     
 echo -e "${GREEN}/****/*,,./..........  *..              .,                              ..,...,*${NC}"
 echo -e "${GREEN}*,*,,,,,,,..%&.*,.*.    ,....                                            ...%@*,${NC}"
 echo -e "${GREEN}**,*,,.,,,,&&&.         .%.....                                   ....   ..(&&&,${NC}"
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                      ⇱ MENU UTAMA ⇲                          \E[0m"
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                   ⇱ MAKLUMAT SERVER ⇲                        \E[0m"
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "  ${RB}🔘${NC} ${WB}OS      :  "$(hostnamectl | grep "Operating System" | cut -d ' ' -f5-) ${NC}         
 echo -e "  ${RB}🔘${NC} ${WB}KERNEL  :  $(uname -r) ${NC} "
 echo -e "  ${RB}🔘${NC} ${WB}UPTIME  :  $uptime ${NC} "
@@ -202,38 +202,33 @@ echo -e "  ${RB}🔘${NC} ${WB}RAM     :  $uram MB / $tram MB ${NC} "
 echo -e "  ${RB}🔘${NC} ${WB}DOMAIN  :  $domain ${NC} "
 echo -e "  ${RB}🔘${NC} ${WB}DNSTT   :  $sldomain ${NC} "
 echo -e "  ${RB}🔘${NC} ${WB}IPVPS   :  $IPVPS ${NC} "
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                    ⇱ STATUS SERVICE ⇲                        \E[0m"
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-echo -e "     ${CYAN} SSH ${NC}: $ressh"" ${CYAN} NGINX ${NC}: $resngx"" ${CYAN}  XRAY ${NC}: $resv2r"" ${CYAN} TROJAN ${NC}: $resv2r"
-echo -e "     ${CYAN}          DROPBEAR ${NC}: $resdbr" "${CYAN} SSH-WS ${NC}: $ressshws"
+echo -e "     ${CYAN} SSH ${NC}: $ressh"" ${CYAN} NGINX ${NC}: $resngx"" ${CYAN}  XRAY ${NC}: $resv2r"" ${CYAN} DROPBEAR ${NC}: $resdbr"     
 echo -e ""
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                   ⇱ TOTAL BANDWIDTH ⇲                        \E[0m"
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "  ${RB}🔘${NC} ${WB}Daily Usage         : $ttoday ${NC}"
 echo -e "  ${RB}🔘${NC} ${WB}Yesterday Usage     : $tyest ${NC}"
 echo -e "  ${RB}🔘${NC} ${WB}Monthly Usage       : $tmon ${NC}"
-echo -e "${NC} ${WB}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}   "
-echo -e "[$wh 1$y ] SSH WEBSOCKET MENU$wh   [$wh 10$y ] FIX SSLH+WS-TLS Error$wh"
-echo -e "[$wh 2$y ] XRAY VLESS MENU$wh      [$wh 11$y ] SETTINGS$wh"
-echo -e "[$wh 3$y ] XRAY VMESS MENU$wh      [$wh 12$y ] CHECK CPU & RAM$wh"
-echo -e "[$wh 4$y ] WIREGUARD MENU$wh       [$wh 13$y ] CHECK BANDWIDTH$wh"
-echo -e "[$wh 5$y ] INFO ALL PORT$wh        [$wh 14$y ] DNS CHANGER$wh"
-echo -e "[$wh 6$y ] XRAY VERSION$wh         [$wh 15$y ] NETFLIX CHECKER$wh"
-echo -e "[$wh 7$y ] CHECK IP PORT$wh        [$wh 16$y ] DELETE EXPIRED USERS$wh"
-echo -e "[$wh 8$y ] CHECK SERVICE VPN$wh    [$wh 17$y ] EXIT$wh"
-echo -e "[$wh 9$y ] UPDATE MENU$wh"
-echo -e "${NC} ${WB}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}   "
-echo -e "  ${RB}🔘${NC} ${WB}Username      :  Microtech.Store "
-echo -e "  ${RB}🔘${NC} ${WB}Licence Key   :  1527-3497-5092-3897 "
-echo -e "  ${RB}🔘${NC} ${WB}Expired Date  :  Lifetime "
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}         "
+echo -e "[$wh 1$y ] SSH WEBSOCKET MENU$wh   [$wh 9$y  ] SETTINGS$wh"
+echo -e "[$wh 2$y ] XRAY VLESS MENU$wh      [$wh 10$y ] CHECK CPU & RAM$wh"
+echo -e "[$wh 3$y ] XRAY VMESS MENU$wh      [$wh 11$y ] CHECK BANDWIDTH$wh"
+echo -e "[$wh 4$y ] INFO ALL PORT$wh        [$wh 12$y ] DNS CHANGER$wh"
+echo -e "[$wh 5$y ] XRAY VERSION$wh         [$wh 13$y ] NETFLIX CHECKER$wh"
+echo -e "[$wh 6$y ] CHECK IP PORT$wh        [$wh 14$y ] DELETE EXPIRED USERS$wh"
+echo -e "[$wh 7$y ] CHECK SERVICE VPN$wh    [$wh 15$y ] EXIT$wh"  
+echo -e "[$wh 8$y ] FIX SSLH+WS-TLS Error$wh"   
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}         "
 echo -e "  ${RB}🔘${NC} ${WB}Autoscript By :  Microtech.Store "
-echo -e "  ${RB}🔘${NC} ${WB}Version       :  LimitedV23 "
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "  ${RB}🔘${NC} ${WB}Version       :  LimitedV4 "
+echo -e "$wh━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "${WB}"
-read -p "Select From Options [ 1 - 17 ] : " menu
+read -p "Select From Options [ 1 - 15 ] : " menu
 case $menu in
 1)
 clear
@@ -249,59 +244,54 @@ vmessmenu
 ;;
 4)
 clear
-wgmenu
+info
 ;;
 5)
 clear
-info
+xray version
 ;;
 6)
 clear
-xray version
+ipsaya
 ;;
 7)
 clear
-ipsaya
+running
 ;;
 8)
 clear
-running
+sl-fix
 ;;
 9)
 clear
-updatemenu
+setmenu
 ;;
 10)
 clear
-sl-fix
+htop
 ;;
 11)
 clear
-setmenu
+vnstat
 ;;
 12)
 clear
-htop
+dns
 ;;
 13)
 clear
-vnstat
+netf
 ;;
 14)
 clear
-dns
+delexp && xp && restart
 ;;
 15)
 clear
-netf
-;;
-16)
-clear
-delexp && xp && restart
-;;
-17)
-clear
 exit
+;;
+100)
+updatemenu
 ;;
 *)
 clear

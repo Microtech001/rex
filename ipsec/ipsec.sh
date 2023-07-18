@@ -48,7 +48,7 @@ PUBLIC_IP=$(wget -qO- ipinfo.io/ip);
 
 bigecho "Installing packages required for the VPN..."
 if [[ ${OS} == "centos" ]]; then
-epel_url="https://github.com/NevermoreSSH/addons/releases/download/epelV9/epel-release-latest-9.noarch.rpm -E '%{rhel}').noarch.rpm"
+epel_url="https://github.com/Microtech001/addons/releases/download/epelV9/epel-release-latest-9.noarch.rpm -E '%{rhel}').noarch.rpm"
 yum -y install epel-release || yum -y install "$epel_url" 
 
 bigecho "Installing packages required for the VPN..."
@@ -82,8 +82,8 @@ bigecho "Compiling and installing Libreswan..."
 
 SWAN_VER=3.32
 swan_file="libreswan-3.32.tar.gz"
-swan_url1="https://github.com/NevermoreSSH/addons/releases/download/libreswan-3.32/libreswan-3.32.tar.gz"
-swan_url2="https://github.com/NevermoreSSH/addons/releases/download/libreswan-3.32/libreswan-3.32.tar.gz"
+swan_url1="https://github.com/Microtech001/addons/releases/download/libreswan-3.32/libreswan-3.32.tar.gz"
+swan_url2="https://github.com/Microtech001/addons/releases/download/libreswan-3.32/libreswan-3.32.tar.gz"
 if ! { wget -t 3 -T 30 -nv -O "$swan_file" "$swan_url1" || wget -t 3 -T 30 -nv -O "$swan_file" "$swan_url2"; }; then
   exit 1
 fi

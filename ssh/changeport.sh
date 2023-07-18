@@ -17,14 +17,11 @@ echo -e ""
 echo -e "======================================"
 echo -e ""
 echo -e "[1]. Change Port OpenVPN"
-echo -e "[2]. Change Port Wireguard"
-echo -e "[3]. Change Port Vmess + Vless"
-echo -e "[4]. Change Port Trojan"
-echo -e "[5]. Change Port Squid"
-echo -e "[6]. Change Port SSTP"
-echo -e "[7]. Change Port SSH WS HTTP"
-echo -e "[8]. Change Port SSH WS TLS / SSL"
-echo -e "[9]. Exit"
+echo -e "[2]. Change Port Vmess + Vless"
+echo -e "[3]. Change Port Squid"
+echo -e "[4]. Change Port SSH WS HTTP"
+echo -e "[5]. Change Port SSH WS TLS / SSL"
+echo -e "[6]. Exit"
 echo -e ""
 echo -e "======================================"
 echo -e ""
@@ -35,27 +32,18 @@ case $port in
 portovpn
 ;;
 2)
-portwg
-;;
-3)
 portvlm
 ;;
-4)
-porttrojan
-;;
-5)
+3)
 portsquid
 ;;
-6)
-portsstp
-;;
-7)
+4)
 portsshnontls
 ;;
-8)
+5)
 portsshws
 ;;
-9)
+6)
 clear
 menu
 ;;

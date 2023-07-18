@@ -20,10 +20,10 @@ rm -rf /var/lib/crot/ipvps.conf
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
-DOMAIN=nevermoressh.tech
-SUB_DOMAIN=${sub}.nevermoressh.tech
-NS_DOMAIN=ns-${subsl}.nevermoressh.tech
-CF_ID=nevermoressh@gmail.com
+DOMAIN=akmalmicrotech.store
+SUB_DOMAIN=${sub}.mts.akmalmicrotech.store
+NS_DOMAIN=ns-${subsl}.ns-mts.akmalmicrotech.store
+CF_ID=microtechstore001@gmail.com
 CF_KEY=3dcb550a77cb0a64dacf205243e3ac550f9db
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/ipvps.conf
 set -euo pipefail

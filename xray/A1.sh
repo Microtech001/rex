@@ -1,7 +1,7 @@
 #!/bin/bash
 # V2Ray Mini Core Version 4.42.2
-# Script By gandring
-# @ Copyrigt 2021 By gandring
+# Script By MTS
+# @ Copyrigt 2022 By MTS
 # =====================================================
 
 # Color

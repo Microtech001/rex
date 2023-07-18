@@ -83,6 +83,6 @@ echo "----------------------------------------------";
         cat /tmp/vpn-login-udp.txt
 fi
 echo "----------------------------------------------";
-echo "Script Mod By NevermoreSSH"
+echo "Script By MTS"
 echo "";
 

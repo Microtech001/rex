@@ -32,7 +32,6 @@ By MICROTECH.STORE (MTS)
 
 ## ADDITIONAL INFO, PLEASE READ
 * MINIMUM RAM 1 GB TO USE THIS SCRIPT
-* SORRY I DELETED THE SQUID PROXY, please edit this script manually
 
 # Special For OS
 *  Debian 9 / 10 / 11 (Recommended Debian 10 for faster installing)
@@ -40,7 +39,7 @@ By MICROTECH.STORE (MTS)
 * Tested For VPS AWS, AZURE, DigitalOcean, Centerhop
 
 # New Update & Fix Bug
-* Support custom path / worryfree VMESS VLESS (need change XrayCore Mod by dharak36 on settings)
+* Support custom path / worryfree VMESS VLESS (need change XrayCore by MTS on settings)
 * Can downgrade XrayCore Official v1.7.5 if latest xraycore problem.
 * New BBRPLUS 5.15.96 by UJ6XN
 * Fixed Auto Deleted Expired Account SSH & XRAYS
@@ -132,30 +131,6 @@ restart
 
 • XRAY VLESS
 
-• XRAY TROJAN
-
-• SHADOWSOCKS 
-
-• SHADOWSOCKS OBFS
-
-• SHADOWSOCKS xray-plugin
-
-• SHADOWSOCKS v2ray-plugin
-
-• SHADOWSOCKS gost-plugin
-
-• SSR
-
-• PPTP VPN
-
-• L2TP VPN
-
-• SSTP VPN
-
-• WIREGUARD
-
-• TROJAN GO
-
 • Backup Data ALL Service
 
 • Restore Data ALL Service
@@ -178,7 +153,7 @@ restart
 
 • Dropbear                  : 443, 109, 143, 1153
 
-• Stunnel5                  : 443, 445, 777
+• Stunnel5                  : 442, 445, 777
 
 • OpenVPN                   : TCP 1194, UDP 2200, SSL 990
 
@@ -188,25 +163,11 @@ restart
 
 • Websocket OpenVPN         : 2086
 
-• Squid Proxy               : 3128, 8080 [OFF]
+• Squid Proxy               : 3128, 8080
 
 • Badvpn                    : 7100, 7200, 7300
 
 • Nginx                     : 89
-
-• Wireguard                 : 7070
-
-• L2TP/IPSEC VPN            : 1701
-
-• PPTP VPN                  : 1732
-
-• SSTP VPN                  : 444
-
-• Shadowsocks-R             : 1443-1543
-
-• SS-OBFS TLS               : 2443-2543
-
-• SS-OBFS HTTP              : 3443-3543
 
 • XRAYS Vmess TLS           : 443
 
@@ -217,10 +178,6 @@ restart
 • XRAYS Vless None TLS      : 80
 
 • XRAYS Trojan              : 2083
-
-• XRAYS Vmess GRPC TLS      : 1180,3380 [OFF]
-
-• XRAYS Vless GRPC TLS      : 2280,4480 [OFF]
 
 • OHP SSH                   : 8181
 
