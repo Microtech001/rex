@@ -34,7 +34,7 @@ ssl="$(cat ~/log-install.txt | grep -w "Stunnel5" | cut -d: -f2)"
 sqd="$(cat ~/log-install.txt | grep -w "Squid" | cut -d: -f2)"
 ovpn="$(netstat -nlpt | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
 ovpn2="$(netstat -nlpu | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
-Login=Trial`</dev/urandom tr -dc X-Z0-9 | head -c4`
+Login=Microtech`</dev/urandom tr -dc X-Z0-9 | head -c4`
 hari="1"
 Pass=1
 clear
@@ -49,7 +49,7 @@ hariini=`date -d "0 days" +"%Y-%m-%d"`
 expi=`date -d "$masaaktif days" +"%Y-%m-%d"`
 echo -e "$Pass\n$Pass\n"|passwd $Login &> /dev/null
 echo -e ""
-echo -e "Premium Server SSH Websocket "
+echo -e "      Server SSH Websocket      "
 echo -e "================================"
 echo -e "IP/Host            : $IP"
 echo -e "Domain             : $domain"
